@@ -1,0 +1,24 @@
+{
+  "name": "testables-apps-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "eslint": "^8.23.0",
+    "vitest": "^0.23.1"
+  },
+  "rules": {
+    "no-useless-constructor": "off"
+  },
+  "dependencies": {
+    "date-fns": "^2.29.2"
+  }
+}
